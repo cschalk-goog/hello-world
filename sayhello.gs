@@ -4,6 +4,9 @@ var ui = SpreadsheetApp.getUi();
    .addItem('Say Hello!','myHelloWorld')
    .addToUi();
 }
+/**
+ * Says hello and prints current date.
+ */
 function myHelloWorld(){  
   var today = new Date();
   var hello =Browser.msgBox("Hello World!! Today is: " + today);
