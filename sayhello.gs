@@ -6,5 +6,5 @@ var ui = SpreadsheetApp.getUi();
 }
 function myHelloWorld(){  
   var today = new Date();
-  var hello =Browser.msgBox("Hello World! Today is: " + today);
+  var hello =Browser.msgBox("Hello World!! Today is: " + today);
 }
